@@ -57,7 +57,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden fixed inset-0 bg-blue-950/80 backdrop-blur-md z-40 flex flex-col justify-center items-center gap-8 text-white text-lg">
+        <div className="md:hidden fixed inset-0 bg-gray-900/80 backdrop-blur-md z-40 flex flex-col justify-center items-center gap-8 text-white text-lg">
           {[
             { name: "Home", link: "#home" },
             { name: "About", link: "#about" },
